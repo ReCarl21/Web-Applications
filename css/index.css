@@ -1,0 +1,54 @@
+body {
+  background-color: gray;
+  position: absolute;
+}
+
+/* Class Related Here! */
+
+header {
+  border: solid 2px yellow;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  border: solid 2px yellow;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Links Related Here! */
+
+a.nav:link, a.nav:active, a.nav:visited {
+  text-decoration: none;
+  color: white;
+}
+ a.nav:hover {
+   text-decoration: none;
+   color: red;
+ }
+
+.nav {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+/* ID Related Here! */
+
+#book_now {
+
+  font-family: font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: white;
+}
+#statement {
+
+  font-family: font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: white;
+}
+#nav {
+  list-style: none;
+}
