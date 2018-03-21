@@ -41,6 +41,19 @@ footer {
   padding: 10px;
 }
 
+.country-align {
+  background-color: white;
+  border: solid 1px red;
+  border-radius: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  width: 20%;
+}
+
 .button {
   background-color: white;
   border: solid 1px red;
@@ -51,10 +64,6 @@ footer {
   text-decoration: none;
   display: inline-block;
 }
-
-
-
-
 
 .middle_two {
   background-color: white;
@@ -93,14 +102,21 @@ footer {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-left: 23px;
+
 }
-
-
 
 .end {
   text-align: right;
   margin-right: 20px;
+}
+
+.social-media-logo {
+  text-align: right;
+  margin-right: 20px;
+  background-color: white;
+  margin-right: 20px;
+  width: 164%;
+  height: 164%;
 }
 
 
@@ -140,4 +156,6 @@ a.button:link, a.nav:active, a.nav:visited {
 }
 #nav {
   list-style: none;
+  text-align: right;
+  margin-right: 20px;
 }
