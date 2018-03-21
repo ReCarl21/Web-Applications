@@ -7,17 +7,102 @@ body {
 
 header {
   border: solid 2px yellow;
-  position: relative;
-  width: 100%;
-  height: 100%;
+
+  width: 164%;
+
 }
 
 footer {
   border: solid 2px yellow;
-  position: relative;
-  width: 100%;
-  height: 100%;
+
+  width: 164%;
+
 }
+
+.nav {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.middle_one {
+  background-color: white;
+  border: solid 2px yellow;
+
+  width: 164%;
+}
+
+.middle_one_inside {
+  background-color: white;
+  border: solid 2px yellow;
+  border-radius: 10px;
+
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.button {
+  background-color: white;
+  border: solid 1px red;
+  border-radius: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+
+
+.middle_two {
+  background-color: white;
+  border: solid 2px yellow;
+
+  width: 164%;
+}
+
+.middle_two_inside {
+  background-color: white;
+  border: solid 2px yellow;
+  border-radius: 10px;
+
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.button {
+  background-color: white;
+  border: solid 1px red;
+  border-radius: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.package-align {
+  background-color: white;
+  border: solid 1px red;
+  border-radius: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 23px;
+}
+
+
+
+.end {
+  text-align: right;
+  margin-right: 20px;
+}
+
 
 /* Links Related Here! */
 
@@ -30,10 +115,14 @@ a.nav:link, a.nav:active, a.nav:visited {
    color: red;
  }
 
-.nav {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+a.button:link, a.nav:active, a.nav:visited {
+
 }
+
+ a.button:hover {
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+ }
 
 /* ID Related Here! */
 
